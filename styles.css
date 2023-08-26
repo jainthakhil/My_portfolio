@@ -389,3 +389,7 @@ nav .fa-solid{
     margin-top: -40px;
     display: block;
 }
+/* hidden work list */
+#hidden-list{
+    display: none;
+}
