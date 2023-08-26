@@ -37,10 +37,10 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Hi, I'm Akhil Jainth a <span style="color: #2bb2a4;">Web Developer</span> who is passionate about his work. Pursuing Engineering with Computer Science & Engineering.
-                    
-                    </p>
-
+                    <div class="about-me">
+                        <p>Hi, I'm Akhil Jainth a <span style="color: #2bb2a4;">Web Developer</span> who is passionate about his work. Pursuing Engineering with Computer Science & Engineering.
+                        </p>
+                    </div>
                     <div class="tab-titles">
                         <p id = "tab" class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p id = "tab" class="tab-links active-link" onclick="opentab('experience')">Experience</p>
@@ -97,8 +97,6 @@
                     <p>Merging creativity and functionality, my web app designing services are synonymous with exceptional quality. I specialize in crafting user-centered web app interfaces that not only showcase innovative designs but also guarantee a smooth and engaging user experience. </p>
                     <a href="#portfolio">Learn more</a>
                 </div>
-
-
             </div>
         </div>
    </div>
@@ -135,9 +133,39 @@
                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
-                
             </div>
-            <a href="#" class="btn">See more</a>
+            
+            <!-- See more works///// -->
+            <div class="work-list" id="hidden-list">
+                <div class="work">
+                    <img src="images/temp.jpg" alt="">
+                    <div class="layer">
+                        <h3>Temperature Converter</h3>
+                        <p> 
+                            Transform temperature effortlessly with our innovative converter app! Whether it's Celsius to Fahrenheit or Kelvin to Rankine, our app provides instant and accurate conversions for all your temperature needs. Enjoy a user-friendly interface, real-time results, and never struggle with temperature conversions again. Download now and experience temperature conversion at your fingertips!</p>
+                        <a href="https://jainthakhil.github.io/Temperature_Converter/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/netfliximg.png" alt="">
+                    <div class="layer">
+                        <h3>Netflix Clone</h3>
+                        <p>
+                            Step into a world of endless entertainment with our remarkable Netflix clone app! Immerse yourself in a vast library of movies, TV shows, and original content. With a seamless and intuitive design, personalized recommendations, and multi-device sync, our app offers the ultimate streaming experience</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/drum.jpg" alt="">
+                    <div class="layer">
+                        <h3>Drum kit Game</h3>
+                        <p>
+                            Unleash your inner drummer with our exhilarating drum kit game! Experience the thrill of creating rhythms using a diverse range of sounds, from classic snares to futuristic electronic beats. Perfect for beginners and pros alike, our game offers an immersive drumming experience with realistic visuals and responsive controls.</p>
+                        <a href="https://jainthakhil.github.io/Drum_kit/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn" id="seeMoreButton">See More</a>
         </div>
     </div>
     <!-- contact -->
@@ -170,8 +198,6 @@
             <p>copyright © Made by Akhil Jainth <i class="fa-solid fa-heart"></i></p>
         </div>
     </div>
-
-
    
 <script src="script.js"></script>
 <script>
