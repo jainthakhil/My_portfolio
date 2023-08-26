@@ -19,11 +19,11 @@ const seeMoreButton = document.getElementById("seeMoreButton");
 const itemList = document.getElementById("hidden-list");
 seeMoreButton.addEventListener("click", function () {
     if (itemList.style.display === "none") {
-        itemList.style.display = "grid"; // Show the list
-        seeMoreButton.textContent = "See Less"; // Change button text
+        itemList.style.display = "grid"; 
+        seeMoreButton.textContent = "See Less"; 
     } else {
-        itemList.style.display = "none"; // Hide the list
-        seeMoreButton.textContent = "See More"; // Change button text
+        itemList.style.display = "none"; 
+        seeMoreButton.textContent = "See More"; 
     }
 });
 
